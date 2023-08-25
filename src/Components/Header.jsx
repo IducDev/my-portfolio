@@ -25,20 +25,20 @@ const Header = () => {
   return (
     <div id='header' className=' w-full relative h-screen flex justify-center items-center bg-bluePrimary'>
       <img src={logo} alt={"logo-flotante"} className='w-[350px] md:w-[600px]'/>
-      <IconFloat image={javascript} top={7} left={7} invert={true} /> 
-      <IconFloat image={html} top={15} left={15} invert={false} />
-      <IconFloat image={css} top={65} left={65} invert={true} />
-      <IconFloat image={tailwind} top={85} left={85} invert={false} />
-      <IconFloat image={typeScript} top={30} left={30} invert={true} />
-      <IconFloat image={firebaseLogo} top={45} left={25} invert={false} />
-      <IconFloat image={gitLogo} top={66} left={66} invert={true} />
-      <IconFloat image={githubLogo} top={75} left={54} invert={false} />
-      <IconFloat image={linux} top={36} left={18} invert={true} />
-      <IconFloat image={express} top={86} left={25} invert={false} />
+      <IconFloat image={javascript} top={10} left={10} invert={true} /> 
+      <IconFloat image={html} top={10} left={90} invert={false} />
+      <IconFloat image={css} top={25} left={65} invert={true} />
+      <IconFloat image={tailwind} top={25} left={85} invert={false} />
+      <IconFloat image={typeScript} top={23} left={19} invert={true} />
+      <IconFloat image={firebaseLogo} top={80} left={25} invert={false} />
+      <IconFloat image={gitLogo} top={66} left={80} invert={true} />
+      <IconFloat image={githubLogo} top={75} left={10} invert={false} />
+      <IconFloat image={linux} top={36} left={8} invert={true} />
+      <IconFloat image={express} top={86} left={20} invert={false} />
       <IconFloat image={grapfQL} top={50} left={75} invert={true} />
-      <IconFloat image={nest} top={50} left={45} invert={false} />
+      <IconFloat image={nest} top={50} left={95} invert={false} />
       <IconFloat image={mongoDB} top={40} left={25} invert={true} />
-      <IconFloat image={redux} top={40} left={40} invert={false} />
+      <IconFloat image={redux} top={50} left={20} invert={false} />
       <IconFloat image={node} top={96} left={69} invert={true} />
     </div>
   )
