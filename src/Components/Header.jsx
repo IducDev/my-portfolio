@@ -20,7 +20,6 @@ import node from "../assets/node-js-svgrepo-com.svg";
 //icon Component
 import IconFloat from './subComponents/IconFloat';
 
-
 const Header = () => {
   return (
     <div id='header' className=' w-full relative h-screen flex justify-center items-center bg-bluePrimary'>
@@ -36,7 +35,7 @@ const Header = () => {
       <IconFloat image={linux} top={36} left={8} invert={true} />
       <IconFloat image={express} top={86} left={20} invert={false} />
       <IconFloat image={grapfQL} top={50} left={75} invert={true} />
-      <IconFloat image={nest} top={50} left={95} invert={false} />
+      <IconFloat image={nest} top={50} left={85} invert={false} />
       <IconFloat image={mongoDB} top={40} left={25} invert={true} />
       <IconFloat image={redux} top={50} left={20} invert={false} />
       <IconFloat image={node} top={96} left={69} invert={true} />
