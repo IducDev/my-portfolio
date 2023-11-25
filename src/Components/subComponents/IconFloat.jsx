@@ -18,4 +18,4 @@ const IconFloat = ({image, top, left, invert}) => {
   )
 }
 
-export default IconFloat
+export default IconFloat;
