@@ -1,6 +1,10 @@
 import React from 'react';
 import repository from "../../assets/carpeta.png";
 import linkToSite from "../../assets/cadena.png";
+import ojo from "../../assets/ojo.png";
+import estrella from "../../assets/estrella.png";
+import tenedor from "../../assets/tenedor.png";
+import contributors from "../../assets/business-people.png";
 
 const CardRepoItem = ({repo}) => {
 
@@ -14,8 +18,39 @@ const CardRepoItem = ({repo}) => {
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         {repo.name}
                     </h5>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                        {repo.description}
+                    </p>
 
+                </div>
+
+                <div className='w-full  bg-white rounded-lg px-2 py-1 my-3'>
+                    <div className='my-1'>
+                        <h6 className='flex align-center'>
+                            <img src={ojo} alt='repository' className='w-[1.5rem] ml-2' />
+                            <span className=' ml-2'>Watchers: {repo.watchers}</span>
+                        </h6>
+                    </div>
+                    <div className='my-1' > 
+                        <h6 className='flex align-center'>
+                            <img src={estrella} alt='estrella' className='w-[1.5rem] ml-2' />
+                            <span className=' ml-2'>stars: {repo.stargazers_count}</span>
+                        </h6>
+                    </div>
+
+                    <div className='my-1'>
+                        <h6 className='flex align-center'>
+                            <img src={tenedor} alt='tenedor' className='w-[1.5rem] ml-2' />
+                            <span className=' ml-2'>forks: {repo.stargazers_count}</span>
+                        </h6>
+                    </div>
+
+                    <div className='my-1'>
+                        <h6 className='flex align-center'>
+                            <img src={contributors} alt='contributors' className='w-[1.5rem] ml-2' />
+                            <span className=' ml-2'>Contributors: {repo.stargazers_count}</span>
+                        </h6>
+                    </div>
                 </div>
                 
                 <div className='w-[100%] flex justify-between align-bottom'>
