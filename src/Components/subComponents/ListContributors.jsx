@@ -5,8 +5,8 @@ import axios from "axios";
 
 const ListContributors = ({contributorsLink}) =>{
 
-    const [repoResult, setReporesult] = useState(false);
-    const [repoListContributors, setRepoListContributors] = useState([])
+    const [contributorsResult, setContributorsReporesult] = useState(false);
+    const [ListContributors, setListContributors] = useState([])
     
     async function getRepoInfo(contributors) {
         try {
