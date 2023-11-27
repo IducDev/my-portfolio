@@ -26,6 +26,7 @@ const Work = () => {
     },[])
     
     
+    
     return (
     <div id='work' className='w-full h-auto bg-bluePrimary p-5 '>
         <h2 className='text-skyClear text-[1.5rem] md:text-[3rem] mb-8'>Projects</h2>

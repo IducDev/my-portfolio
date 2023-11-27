@@ -1,12 +1,9 @@
-
-
+import React from "react";
 import repository from "../../assets/carpeta.png";
 import linkToSite from "../../assets/cadena.png";
 import ojo from "../../assets/ojo.png";
 import estrella from "../../assets/estrella.png";
 import tenedor from "../../assets/tenedor.png";
-
-import ListContributors from "./ListContributors"
 
 
 const CardRepoItem = ({repo}) => {
@@ -47,8 +44,6 @@ const CardRepoItem = ({repo}) => {
                             <span className=' ml-2'>forks: {repo.stargazers_count}</span>
                         </h6>
                     </div>
-
-                    <ListContributors contributorsLink={repo.contributors_url} />
                 </div>
                 
                 <div className='w-[100%] flex justify-between align-bottom'>
