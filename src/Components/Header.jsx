@@ -10,10 +10,10 @@ import firebaseLogo from "../assets/firebaseLogo.png";
 import gitLogo from "../assets/git.png";
 import nextjs from "../assets/next.js.png";
 import linux from "../assets/linux-svgrepo-com.svg";
-import express from "../assets/express-svgrepo-com.svg";
+import prisma from "../assets/prisma.png";
 import grapfQL from "../assets/graphql-svgrepo-com.svg";
 import nest from "../assets/logo-small.svg";
-import mongoDB from "../assets/mongo-svgrepo-com.svg";
+import postgresql from "../assets/postgresql.png";
 import redux from "../assets/redux-logo.svg";
 import node from "../assets/node-js-svgrepo-com.svg";
 
@@ -33,10 +33,10 @@ const Header = () => {
       <IconFloat image={gitLogo} top={66} left={80} invert={true} />
       <IconFloat image={nextjs} top={75} left={10} invert={false} />
       <IconFloat image={linux} top={36} left={8} invert={true} />
-      <IconFloat image={express} top={86} left={20} invert={false} />
+      <IconFloat image={prisma} top={86} left={20} invert={false} />
       <IconFloat image={grapfQL} top={50} left={75} invert={true} />
       <IconFloat image={nest} top={50} left={85} invert={false} />
-      <IconFloat image={mongoDB} top={40} left={25} invert={true} />
+      <IconFloat image={postgresql} top={40} left={25} invert={true} />
       <IconFloat image={redux} top={50} left={20} invert={false} />
       <IconFloat image={node} top={96} left={69} invert={true} />
     </div>

@@ -10,10 +10,10 @@ import firebaseLogo from "../assets/React-icon.svg.png";
 import gitLogo from "../assets/git.png";
 import nextjs from "../assets/next.js.png";
 import linux from "../assets/linux-svgrepo-com.svg";
-import express from "../assets/express-svgrepo-com.svg";
+import prisma from "../assets/prisma.png";
 import grapfQL from "../assets/graphql-svgrepo-com.svg";
 import nest from "../assets/logo-small.svg";
-import mongoDB from "../assets/mongo-svgrepo-com.svg";
+import postgresql from "../assets/postgresql.png";
 import redux from "../assets/redux-logo.svg";
 import node from "../assets/node-js-svgrepo-com.svg";
 
@@ -82,7 +82,7 @@ const Services = () => {
                     <img className="h-auto max-w-full rounded-lg" src={linux} alt="img"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={express} alt="img"/>
+                    <img className="h-auto max-w-full rounded-lg" src={prisma} alt="img"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
                     <img className="h-auto max-w-full rounded-lg" src={grapfQL} alt="img"/>
@@ -91,7 +91,7 @@ const Services = () => {
                     <img className="h-auto max-w-full rounded-lg" src={nest} alt="img"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={mongoDB} alt="img"/>
+                    <img className="h-auto max-w-full rounded-lg" src={postgresql} alt="img"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
                     <img className="h-auto max-w-full rounded-lg" src={redux} alt="img"/>
