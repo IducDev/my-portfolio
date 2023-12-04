@@ -1,4 +1,3 @@
-import React from "react";
 import repository from "../../assets/carpeta.png";
 import linkToSite from "../../assets/cadena.png";
 import ojo from "../../assets/ojo.png";
@@ -11,7 +10,7 @@ const CardRepoItem = ({repo}) => {
     //console.log(repo)
 
     return (
-        <div className="h-[100%] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div className="h-[100%]  border border-gray-200 rounded-lg shadow bg-blueSecondary">
             
             <div className="p-5 h-[100%] flex flex-col justify-between">
                 <div>
@@ -24,7 +23,7 @@ const CardRepoItem = ({repo}) => {
 
                 </div>
 
-                <div className='w-full  bg-white rounded-lg px-2 py-1 my-3'>
+                <div className='w-full  text-white rounded-lg px-2 py-1 my-3'>
                     <div className='my-1'>
                         <h6 className='flex align-center'>
                             <img src={ojo} alt='repository' className='w-[1.5rem] ml-2' />
@@ -47,7 +46,7 @@ const CardRepoItem = ({repo}) => {
                 </div>
                 
                 <div className='w-[100%] flex justify-between align-bottom'>
-                    <a href={repo.html_url} target='_blank' rel='noreferrer' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-bluePrimary rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <a href={repo.html_url} target='_blank' rel='noreferrer' className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-skyClear rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Repository
                         <img src={repository} alt='repository' className='w-[1.5rem] ml-2' />
                     </a>

@@ -5,9 +5,9 @@ import github from "../assets/github.png";
 
 const Contact = () => {
   return (
-    <div id='contact' className='flex flex-col justify-between contact w-full h-screen bg-bluePrimary px-5 py-5'>
+    <div id='contact' className='flex flex-col justify-between contact w-full h-screen bg-bluePrimary  py-5'>
 
-          <h5 className='text-skyClear text-[1.5rem] md:text-[3rem] '>Contact me</h5>
+          <h5 className='text-skyClear text-[1.5rem] md:text-[3rem] px-5'>Contact me</h5>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-3 items-center' id='icon-container'>
 
             <div className="flex justify-center items-center ">
