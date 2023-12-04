@@ -8,7 +8,7 @@ import tailwind from "../assets/tailwindcss.pngs.png";
 import typeScript from "../assets/typescript.png";
 import firebaseLogo from "../assets/React-icon.svg.png";
 import gitLogo from "../assets/git.png";
-import githubLogo from "../assets/github.png";
+import nextjs from "../assets/next.js.png";
 import linux from "../assets/linux-svgrepo-com.svg";
 import express from "../assets/express-svgrepo-com.svg";
 import grapfQL from "../assets/graphql-svgrepo-com.svg";
@@ -76,7 +76,7 @@ const Services = () => {
                     <img className="h-auto max-w-full rounded-lg" src={gitLogo} alt="img"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={githubLogo} alt="img"/>
+                    <img className="h-auto max-w-full rounded-lg" src={nextjs} alt="img"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
                     <img className="h-auto max-w-full rounded-lg" src={linux} alt="img"/>

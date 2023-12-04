@@ -8,7 +8,7 @@ import tailwind from "../assets/tailwindcss.pngs.png";
 import typeScript from "../assets/typescript.png";
 import firebaseLogo from "../assets/firebaseLogo.png";
 import gitLogo from "../assets/git.png";
-import githubLogo from "../assets/github.png";
+import nextjs from "../assets/next.js.png";
 import linux from "../assets/linux-svgrepo-com.svg";
 import express from "../assets/express-svgrepo-com.svg";
 import grapfQL from "../assets/graphql-svgrepo-com.svg";
@@ -31,7 +31,7 @@ const Header = () => {
       <IconFloat image={typeScript} top={23} left={19} invert={true} />
       <IconFloat image={firebaseLogo} top={80} left={25} invert={false} />
       <IconFloat image={gitLogo} top={66} left={80} invert={true} />
-      <IconFloat image={githubLogo} top={75} left={10} invert={false} />
+      <IconFloat image={nextjs} top={75} left={10} invert={false} />
       <IconFloat image={linux} top={36} left={8} invert={true} />
       <IconFloat image={express} top={86} left={20} invert={false} />
       <IconFloat image={grapfQL} top={50} left={75} invert={true} />
