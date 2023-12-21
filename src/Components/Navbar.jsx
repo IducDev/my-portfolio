@@ -1,16 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import {BiHomeAlt, BiUser} from "react-icons/bi"
-import {BsClipboardData, BsBriefcase} from "react-icons/bs";
-import {RiContactsLine} from "react-icons/ri";
 import home from "../assets/work-from-home.png"
 import profile from "../assets/perfil-del-usuario.png";
 import services from "../assets/cloud-service.png";
 import projects from "../assets/project-management.png";
 import contact from "../assets/informacion-del-contacto.png";
 
-const Navbar = () => {
 
+const Navbar = () => {
     return (
     <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50 py-4 px-3'>
         <div className='container mx-auto'>

@@ -6,23 +6,22 @@ import Work from "./Components/Work";
 import Contact from "./Components/Contact"
 import { useEffect, useState } from "react";
 
+
+
 function App() {
-
   const [isVisible, setIsVisible] = useState(true);
-
   useEffect(() => {
-  const listenToScroll = () => {
-    const maxScroll = document.body.scrollHeight - window.innerHeight;
-    const winScroll = document.documentElement.scrollTop;
-    if (winScroll === maxScroll) { // Reemplaza 100 con el límite inferior que desees
-      setIsVisible(false);
-    } else {
-      setIsVisible(true);
-    }
-  };
-
-  window.addEventListener("scroll", listenToScroll);
-  return () => window.removeEventListener("scroll", listenToScroll);
+    const listenToScroll = () => {
+      const maxScroll = document.body.scrollHeight - window.innerHeight;
+      const winScroll = document.documentElement.scrollTop;
+      if (winScroll === maxScroll) { // Reemplaza 100 con el límite inferior que desees
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+    };
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
 
   return (
@@ -33,9 +32,9 @@ function App() {
       <Services/>
       <Work/>
       <Contact/>
-      
     </>
   )
 }
+
 
 export default App;
