@@ -5,6 +5,7 @@ import Services from "./Components/Services";
 import Work from "./Components/Work";
 import Contact from "./Components/Contact"
 import { useEffect, useState } from "react";
+import Footer from "./Components/Footer";
 
 
 
