@@ -72,7 +72,7 @@ export const dataDeploys = [
         date: "Published on Feb 21, 2022."
     },
     {
-        image: "screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/621ee4a369630b36770832c6/screenshot_2022-03-02-03-29-46-0000.pngPublished on Mar 1, 2022.",
+        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/621ee4a369630b36770832c6/screenshot_2022-03-02-03-29-46-0000.png",
         name:"fylo-darktheme-iducsoft",
         url:"https://fylo-darktheme-iducsoft.netlify.app",
         fromDeploy:"Deploys from GitHub.",
