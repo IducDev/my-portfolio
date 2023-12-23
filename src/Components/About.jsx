@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import avatar from "../assets/IMG_20230412_161150~2.jpg"
+import avatar from "../assets/miperfil.jpg"
 //import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 import { TypeAnimation } from 'react-type-animation';
 
