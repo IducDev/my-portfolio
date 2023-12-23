@@ -7,8 +7,6 @@ import tenedor from "../../assets/tenedor.png";
 
 const CardRepoItem = ({repo}) => {
 
-    //console.log(repo)
-
     return (
         <div className="h-[100%]  border border-gray-200 rounded-lg shadow bg-blueSecondary">
             

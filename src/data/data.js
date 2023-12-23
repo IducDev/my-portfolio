@@ -1,5 +1,6 @@
-export const dataDeploys = [
 
+
+export const dataDeploys = [
     {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6584c9b747837e0008420337/screenshot_2023-12-21-23-27-07-0000.png",
         name:"isaac-urdaneta",
@@ -35,7 +36,6 @@ export const dataDeploys = [
         fromDeploy:"Deploys from GitHub.",
         date: "Published on Dec 27, 2022."
     },
-
     {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6313e4af80fe0572e98f2025/screenshot_2022-09-03-23-35-18-0000.png",
         name:"easybank-iducsoft",
