@@ -50,8 +50,6 @@ const Services = () => {
                 </div>
             </li>
         </ol>
-
-
         <h2 className='text-skyClear text-[1.5rem] md:text-[3rem] mb-8 mt-8'>Skills</h2>
         <div className="grid grid-cols-5 gap-4 w-full lg:w-[700px] mx-auto mt-5">
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">

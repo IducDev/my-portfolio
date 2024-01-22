@@ -16,7 +16,6 @@ import nest from "../assets/logo-small.svg";
 import postgresql from "../assets/postgresql.png";
 import redux from "../assets/redux-logo.svg";
 import node from "../assets/node-js-svgrepo-com.svg";
-
 //icon Component
 import IconFloat from './subComponents/IconFloat';
 

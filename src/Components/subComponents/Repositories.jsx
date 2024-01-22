@@ -6,7 +6,6 @@ import axios from "axios"
 const Repositories = () => {
     const [repoResult, setReporesult] = useState(false);
     const [repoList, setRepoList] = useState([]);
-
     async function getRepoInfo(owner) {
         try {
             const response = await axios.get(`https://api.github.com/users/${owner}/repos`);
@@ -18,7 +17,6 @@ const Repositories = () => {
             console.error(`Error: ${error}`);
         }
     }
-
     useEffect(()=>{
         getRepoInfo("IducSoft")
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -44,5 +42,4 @@ const Repositories = () => {
     </div>
   )
 }
-
-export default Repositories
+export default Repositories;

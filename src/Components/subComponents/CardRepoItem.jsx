@@ -4,9 +4,7 @@ import ojo from "../../assets/ojo.png";
 import estrella from "../../assets/estrella.png";
 import tenedor from "../../assets/tenedor.png";
 
-
 const CardRepoItem = ({repo}) => {
-
     return (
         <div className="h-[100%]  border border-gray-200 rounded-lg shadow bg-blueSecondary">
             
@@ -56,7 +54,6 @@ const CardRepoItem = ({repo}) => {
                 </div>
             </div>
         </div>
-
     )
 }
 

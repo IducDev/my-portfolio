@@ -6,8 +6,6 @@ import Work from "./Components/Work";
 import Contact from "./Components/Contact"
 import { useEffect, useState } from "react";
 
-
-
 function App() {
   const [isVisible, setIsVisible] = useState(true);
   useEffect(() => {

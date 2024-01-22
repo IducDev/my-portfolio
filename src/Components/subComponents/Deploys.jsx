@@ -4,11 +4,10 @@ import linkToSite from "../../assets/cadena.png";
 const Deploys = () => {
     
     
-  return (
+    return (
     <div className="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5 md:p-10">
         {
             dataDeploys.map((index, key)=>{
-                console.log(index)
                 return (
                     <div key={key}>
                         <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

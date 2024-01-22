@@ -4,7 +4,6 @@ import avatar from "../assets/miperfil.jpg"
 //import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 import { TypeAnimation } from 'react-type-animation';
 
-
 const About = () => {
   return (
     <div id='about' className='about w-full h-screen bg-bluePrimary'>
