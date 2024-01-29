@@ -10,11 +10,11 @@ const Contact = () => {
           <h5 className='text-skyClear text-[1.5rem] md:text-[3rem] px-5'>Contact me</h5>
           <div className='grid grid-cols-1 gap-4 sm:grid-cols-3 items-center' id='icon-container'>
             <div className="flex justify-center items-center ">
-              <a href="https://www.linkedin.com/in/isaac-urdaneta-8450b2102/" target="_blank" rel="noreferrer" >
+              <a href="https://www.linkedin.com/in/isaac-urdaneta" target="_blank" rel="noreferrer" >
               <img className="w-[100px] rounded-lg" src={linkedin}  alt="img"/>
               </a>
             </div>
-            <div className="flex justify-center items-center  ">
+            <div className="flex justify-center items-center">
               <a href="mailto:urdanetacuarteisaacdavid@gmail.com" target="_blank" rel="noreferrer" >
               <img className="w-[100px] rounded-lg" src={gmail}  alt="img"/>
               </a>
