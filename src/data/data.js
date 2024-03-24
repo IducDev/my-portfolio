@@ -1,6 +1,13 @@
-
+import imageSpotter from "../../src/assets/spotterImage.png"
 
 export const dataDeploys = [
+    {
+        image: `${imageSpotter}`,
+        name:"Spotter Gym",
+        url:"https://spotter-gym.vercel.app",
+        fromDeploy:"Deploys from GitHub",
+        date: "Published on march 2024"
+    },
     {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6584c9b747837e0008420337/screenshot_2023-12-21-23-27-07-0000.png",
         name:"isaac-urdaneta",
