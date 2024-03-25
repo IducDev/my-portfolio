@@ -114,13 +114,6 @@ export const dataDeploys = [
         date: "Published on Aug 25, 2021."
     },
     {
-        image: "https://app.netlify.com/06dc8dda360a79a8ec50.webp",
-        name:"isaacurdaneta",
-        url:"https://isaacurdaneta.netlify.app",
-        fromDeploy:"Deploys from GitHub.",
-        date: "Published on Sep 9, 2021."
-    },
-    {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6155290c6660916d955ecbdc/screenshot_2021-09-30-03-03-44-0000.png",
         name:"calculadoraiduc",
         url:"https://calculadoraiduc.netlify.app",
