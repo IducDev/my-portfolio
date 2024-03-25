@@ -4,7 +4,7 @@ export const dataDeploys = [
     {
         image: `${imageSpotter}`,
         name:"Spotter Gym",
-        url:"https://spotter-gym.vercel.app",
+        url:"https://spottergym.vercel.app",
         fromDeploy:"Deploys from GitHub",
         date: "Published on march 2024"
     },
