@@ -13,7 +13,7 @@ import linux from "../assets/linux-svgrepo-com.svg";
 import prisma from "../assets/prisma.png";
 import grapfQL from "../assets/graphql-svgrepo-com.svg";
 import nest from "../assets/logo-small.svg";
-import postgresql from "../assets/postgresql.png";
+import postgresql from "../assets/base-de-datos.png";
 import redux from "../assets/redux-logo.svg";
 import node from "../assets/node-js-svgrepo-com.svg";
 //icon Component

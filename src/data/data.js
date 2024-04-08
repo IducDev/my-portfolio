@@ -30,32 +30,11 @@ export const dataDeploys = [
         date: "Published on Jun 8."
     },
     {
-        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/641711bc76945e00084ae60c/screenshot_2023-03-19-13-44-49-0000.png",
-        name:"bookly-nocountry",
-        url:"https://bookly-nocountry.netlify.app",
-        fromDeploy:"Deploys from GitHub.",
-        date: "Published on Mar 19."
-    },
-    {
-        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/63aaf01a10530400084e7df9/screenshot_2022-12-27-13-16-43-0000.png",
-        name:"iducnotes",
-        url:"https://iducnotes.netlify.app",
-        fromDeploy:"Deploys from GitHub.",
-        date: "Published on Dec 27, 2022."
-    },
-    {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6313e4af80fe0572e98f2025/screenshot_2022-09-03-23-35-18-0000.png",
         name:"easybank-iducsoft",
         url:"https://easybank-iducsoft.netlify.app",
         fromDeploy:"Deploys from GitHub.",
         date: "Published on Sep 3, 2022."
-    },
-    {
-        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6313e4af80fe0572e98f2025/screenshot_2022-09-03-23-35-18-0000.png",
-        name:"freecodecamp-projects-finals",
-        url:"https://freecodecamp-projects-finals.netlify.app",
-        fromDeploy:"Deploys from GitHub.",
-        date: "Published on Nov 23, 2022."
     },
     {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/62ab4449ddfc0e000847b864/screenshot_2022-06-16-14-55-17-0000.png",
@@ -105,20 +84,6 @@ export const dataDeploys = [
         url:"https://indiebrewiduc.netlify.app",
         fromDeploy:"Deploys from GitHub.",
         date: "Published on Apr 16, 2022."
-    },
-    {
-        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/61266fe2df7e872c551ce020/screenshot_2021-08-25-16-29-32-0000.png",
-        name:"tupastelideal",
-        url:"https://tupastelideal.netlify.app",
-        fromDeploy:"Deploys from GitHub.",
-        date: "Published on Aug 25, 2021."
-    },
-    {
-        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6155290c6660916d955ecbdc/screenshot_2021-09-30-03-03-44-0000.png",
-        name:"calculadoraiduc",
-        url:"https://calculadoraiduc.netlify.app",
-        fromDeploy:"Deploys from GitHub.",
-        date: "Published on Sep 29, 2021."
     },
     {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/627bc3652ac5dd152788da1b/screenshot_2022-05-11-14-08-47-0000.png",
