@@ -11,15 +11,15 @@ const About = () => {
         <div className='col-span-2 md:col-span-1 w-full text-center md:text-left'>
           <h1 className='text-skyClear text-[1.5rem] md:text-[3rem] '>Isaac Urdaneta</h1>
           <div>
-            <span className='mr-5 text-skyClear text-[1rem] md:text-[1rem] '>I am</span>
+            <span className='mr-5 text-skyClear text-[1rem] md:text-[1rem] '>I am a</span>
             <TypeAnimation sequence={[
               "TypeScript/javascript Developer",
-              2000,
+              3500,
               "Frontend Developer",
-              2000,
+              3500,
               "Mobile Developer",
-              2000,
-              "Backend Developer in training"
+              3500,
+              "Dart / Flutter developer"
             ]}
             speed={50}
             className='mr-5 text-skyClear text-[1rem] md:text-[1rem] '

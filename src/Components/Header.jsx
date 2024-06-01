@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import logo from "../assets/segundoLogo.png";
+import logo from "../assets/iducdev.png";
 import javascript from "../assets/js.png";
 import html from "../assets/html-5.png";
 import css from "../assets/css-3.png";
