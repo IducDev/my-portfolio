@@ -14,7 +14,7 @@ import dart from "../assets/dart-icon.png";
 import flutter from "../assets/flutter-icon.png";
 import redux from "../assets/redux-logo.svg";
 import node from "../assets/node-js-svgrepo-com.svg";
-
+import zustand from "../assets/zustand.png"
 const Services = () => {
     return(
     <div id='services' className='w-full  bg-bluePrimary p-5 '>
@@ -85,6 +85,9 @@ const Services = () => {
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
                     <img className="h-auto max-w-full rounded-lg" src={redux} alt="img"/>
+                </div>
+                <div className="transition-transform duration-300 transform-gpu hover:scale-50">
+                    <img className="w-[280px] h-[100px] rounded-lg" src={zustand} alt="img"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
                     <img className="h-auto max-w-full rounded-lg" src={node} alt="img"/>

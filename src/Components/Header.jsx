@@ -12,8 +12,7 @@ import nextjs from "../assets/next.js.png";
 import linux from "../assets/linux-svgrepo-com.svg";
 import dart from "../assets/dart-icon.png";
 import flutter from "../assets/flutter-icon.png";
-//import nest from "../assets/logo-small.svg";
-//import postgresql from "../assets/base-de-datos.png";
+import zustand from "../assets/zustand.png"
 import redux from "../assets/redux-logo.svg";
 import node from "../assets/node-js-svgrepo-com.svg";
 //icon Component
@@ -34,10 +33,7 @@ const Header = () => {
       <IconFloat image={linux} top={36} left={8} invert={true} />
       <IconFloat image={dart} top={86} left={20} invert={false} />
       <IconFloat image={flutter} top={50} left={75} invert={true} />
-      {/*<IconFloat image={nest} top={50} left={85} invert={false} />
-        <IconFloat image={postgresql} top={40} left={25} invert={true} />
-      */}
-      
+      <IconFloat image={zustand} top={40} left={25} invert={true} />
       <IconFloat image={redux} top={50} left={20} invert={false} />
       <IconFloat image={node} top={96} left={69} invert={true} />
     </div>
