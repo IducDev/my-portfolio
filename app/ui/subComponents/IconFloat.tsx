@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 import Image from 'next/image';
 
 // eslint-disable-next-line react/prop-types
-const IconFloat = ({image, top, left}) => {
+const IconFloat = ({image, top, left}:{image:any, top:any, left:any}) => {
   return (
     <div>
       <motion.div
