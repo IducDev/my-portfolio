@@ -1,12 +1,13 @@
-import Header from "./Components/Header";
-import Navbar from "./Components/Navbar";
-import About from  "./Components/About";
-import Services from "./Components/Services";
-import Work from "./Components/Work";
-import Contact from "./Components/Contact"
+"use client"
 import { useEffect, useState } from "react";
+import Navbar from "./ui/Navbar";
+import Header from "./ui/Header";
+import About from "./ui/About";
+import Services from "./ui/Services";
+import Work from "./ui/Work";
+import Contact from "./ui/Contact";
 
-function App() {
+export default function Home() {
   const [isVisible, setIsVisible] = useState(true);
   useEffect(() => {
     const listenToScroll = () => {
@@ -22,6 +23,7 @@ function App() {
     return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
 
+
   return (
     <>
       {isVisible && <Navbar/>}
@@ -31,8 +33,6 @@ function App() {
       <Work/>
       <Contact/>
     </>
-  )
+    
+  );
 }
-
-
-export default App;

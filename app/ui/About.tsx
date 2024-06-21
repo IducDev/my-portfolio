@@ -1,13 +1,11 @@
-/* eslint-disable no-unused-vars */
 import React from 'react'
-import avatar from "../assets/miperfil.jpg"
-//import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
+import avatar from "../../public/miperfil.jpg";
 import { TypeAnimation } from 'react-type-animation';
-
+import Image from 'next/image';
 const About = () => {
   return (
-    <div id='about' className='about w-full h-screen bg-bluePrimary'>
-      <div className='container w-full  h-screen mx-auto grid grid-cols-2 justify-center items-center gap-3 px-5 py-5'>
+    <div id='about' className='about w-full md:h-screen h-full bg-bluePrimary'>
+      <div className='container w-full h-full  mx-auto grid grid-cols-2 justify-center items-center gap-3 px-5 py-5'>
         <div className='col-span-2 md:col-span-1 w-full text-center md:text-left'>
           <h1 className='text-skyClear text-[1.5rem] md:text-[3rem] '>Isaac Urdaneta</h1>
           <div>
@@ -43,16 +41,12 @@ const About = () => {
           </button>
           
         </div>
-        {/*<div className='col-span-2 md:col-span-1 w-full text-center md:text-left'>
-          
-        </div>*/}
         <div className='col-span-2 md:col-span-1 w-full flex justify-center'>
-          <img src={avatar} alt='avatar-profile' className='h-[350px] rounded-full' />
+          <Image src={avatar} alt='avatar-profile' className='rounded-full' width={350} height={350} />
         </div>
       </div>
-
     </div>
   )
 }
 
-export default About
+export default About;

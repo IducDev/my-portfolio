@@ -1,8 +1,7 @@
-import imageSpotter from "../../src/assets/spotterImage.png"
-
+import imageSpotter from "../../public/spotterImage.png"
 export const dataDeploys = [
     {
-        image: `${imageSpotter}`,
+        image: `${imageSpotter.src}`,
         name:"Spotter Gym",
         url:"https://spottergym.vercel.app",
         fromDeploy:"Deploys from GitHub",

@@ -1,9 +1,7 @@
-// eslint-disable-next-line no-unused-vars
-import axios from 'axios';
-import { useState } from 'react'
+"use client"
+import {useState } from 'react'
 import Deploys from './subComponents/Deploys';
 import Repositories from './subComponents/Repositories';
-
 
 const Work = () => {
     const [renderDeploys, setRenderDeploys] = useState(true);
@@ -28,4 +26,4 @@ const Work = () => {
     )
 }
 
-export default Work
+export default Work;

@@ -1,23 +1,27 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
-import nocountrylogo from "../assets/nocountrylogo.png"
-import javascript from "../assets/js.png";
-import html from "../assets/html-5.png";
-import css from "../assets/css-3.png";
-import tailwind from "../assets/tailwindcss.pngs.png";
-import typeScript from "../assets/typescript.png";
-import firebaseLogo from "../assets/React-icon.svg.png";
-import gitLogo from "../assets/git.png";
-import nextjs from "../assets/next.js.png";
-import linux from "../assets/linux-svgrepo-com.svg";
-import dart from "../assets/dart-icon.png";
-import flutter from "../assets/flutter-icon.png";
-import redux from "../assets/redux-logo.svg";
-import node from "../assets/node-js-svgrepo-com.svg";
-import zustand from "../assets/zustand.png"
+import nocountrylogo from "../../public/nocountrylogo.png"
+import javascript from "../../public/js.png";
+import html from "../../public/html-5.png";
+import css from "../../public/css-3.png";
+import tailwind from "../../public/tailwindcss.pngs.png";
+import typeScript from "../../public/typescript.png";
+import firebaseLogo from "../../public/React-icon.svg.png";
+import gitLogo from "../../public/git.png";
+import nextjs from "../../public/next.js.png";
+import linux from "../../public/linux-svgrepo-com.svg";
+import dart from "../../public/dart-icon.png";
+import flutter from "../../public/flutter-icon.png";
+import redux from "../../public/redux-logo.svg";
+import node from "../../public/node-js-svgrepo-com.svg";
+import zustand from "../../public/zustand.png";
+import figma from "../../public/figma.png"
+import Image from 'next/image';
+
+
+
 const Services = () => {
     return(
-    <div id='services' className='w-full  bg-bluePrimary p-5 '>
+    <div id='services' className='w-full h-full   bg-bluePrimary p-5 '>
         <h2 className='text-skyClear text-[1.5rem] md:text-[3rem] mb-8'>Experience</h2>
         {/*Timeline*/}
         <ol className="grid grid-cols-1 md:grid-cols-3">
@@ -38,7 +42,7 @@ const Services = () => {
                             Frontend Developer  - 
                         </span>
                         <a href='https://www.nocountry.tech' rel='noreferrer' target="_blank">
-                        <img src={nocountrylogo} alt="no-country" className="w-[7rem] md:w-[10rem] mt-3"  />
+                        <Image src={nocountrylogo} alt="no-country" className="w-[7rem] md:w-[10rem] mt-3"  />
                         </a>
                     </h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 mt-3">Released on January, 2023</time>
@@ -49,48 +53,51 @@ const Services = () => {
             </li>
         </ol>
         <h2 className='text-skyClear text-[1.5rem] md:text-[3rem] mb-8 mt-8'>Skills</h2>
-        <div className="grid grid-cols-5 gap-4 w-full lg:w-[700px] mx-auto mt-5">
+        <div className="grid grid-cols-5 gap-4 w-full  lg:w-[700px] mx-auto mt-5 ">
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={javascript}  alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={javascript}  alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={html} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={html} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={css} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={css} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={tailwind} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={tailwind} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={typeScript} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={typeScript} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={firebaseLogo} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={firebaseLogo} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={gitLogo} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={gitLogo} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={nextjs} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={nextjs} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={linux} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={linux} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={dart} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={dart} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={flutter} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={flutter} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={redux} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={redux} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="w-[280px] h-[100px] rounded-lg" src={zustand} alt="img"/>
+                    <Image className="w-[280px] h-[100px] rounded-lg" src={zustand} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <img className="h-auto max-w-full rounded-lg" src={node} alt="img"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={node} alt="Image"/>
+                </div>
+                <div className="transition-transform duration-300 transform-gpu hover:scale-50">
+                    <Image className="h-auto max-w-full rounded-lg" src={figma} alt="Image"/>
                 </div>
         </div>
     </div>
