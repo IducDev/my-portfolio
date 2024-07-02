@@ -16,7 +16,7 @@ const Contact = () => {
               </Link>
             </div>
             <div className="flex justify-center items-center">
-              <Link href="mailto:urdanetacuarteisaacdavid@gmail.com" target="_blank" rel="noopener noreferrer" >
+              <Link href="mailto:urdanetacuarteisaacdavid@gmail.com" target="_blank" rel="noreferrer" >
                 <Image className="w-[100px] rounded-lg" src={gmail}  alt="img"/>
               </Link>
             </div>

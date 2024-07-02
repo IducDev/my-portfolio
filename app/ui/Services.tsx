@@ -45,9 +45,9 @@ const Services = () => {
                         <Image src={nocountrylogo} alt="no-country" className="w-[7rem] md:w-[10rem] mt-3"  />
                         </a>
                     </h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 mt-3">Released on January, 2023</time>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 mt-3">From January 2023 to January 2024</time>
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                        Perform tasks such as layout designer, endpoint consumption, centralized and persistent state management, project deployment.
+                        Play the role of frontend developer with the following technologies: Typescript, Nextjs, TailwindCss, Redux, Zustand. I collaborated closely with the UI/UX team and the backend team, you could say I was a kind of bridge for both worlds.
                     </p>
                 </div>
             </li>
