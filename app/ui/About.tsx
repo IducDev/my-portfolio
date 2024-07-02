@@ -26,7 +26,7 @@ const About = () => {
             repeat={Infinity}/>
           </div>
           <p className='text-white mt-4 '>
-            Expert frontend developer in react.js, and i'm learning mobile development with dart/flutter right now,
+            Expert frontend developer in react.js, and i am learning mobile development with dart and flutter right now,
              with exceptional skills in creating pleasant 
              and optimized user experiences, both on mobile 
              and desktop devices. With a focus on efficiency 
