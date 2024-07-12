@@ -26,17 +26,11 @@ const About = () => {
             repeat={Infinity}/>
           </div>
           <p className='text-white mt-4 '>
-            Expert frontend developer in react.js, and i am learning mobile development with dart and flutter right now,
-             with exceptional skills in creating pleasant 
-             and optimized user experiences, both on mobile 
-             and desktop devices. With a focus on efficiency 
-             and scalability, I constantly look for opportunities 
-             for improvement and learning, contributing to the success 
-             of projects and teams.
+            I am Isaac Urdaneta, a passionate Frontend developer with three years of experience in the field. My educational background and professional experience have allowed me to acquire strong skills in TypeScript and JavaScript, allowing me to create interactive and efficient web applications using React and Next.js. My passion for web development led me to explore beyond traditional front-end technologies, and I am currently expanding my knowledge in Node.js and the Flutter ecosystem, seeking to integrate these new tools into my projects to offer more complete solutions and robust.
           </p>
         
           <button type="button" className="mt-[1rem] py-5 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ background: 'linear-gradient(to right, #12152c, #123e73, #1fa7d4, #20dad9, #93e9e7)' }}>
-            <a className='text-[1.5rem]' target='_blank' rel='noreferrer'  href='https://drive.google.com/file/d/17W3wCtkZqLKuLYCY5ZAZApd63-Mx5jb8/view' >
+            <a className='text-[1.5rem]' target='_blank' rel='noreferrer'  href='https://drive.google.com/file/d/1T0ehrEuflZlCD6iviwXn3LVDgbH1FZ1F/view' >
               Download CV
             </a>
           </button>
