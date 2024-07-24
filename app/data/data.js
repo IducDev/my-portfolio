@@ -8,6 +8,13 @@ export const dataDeploys = [
         date: "Published on march 2024"
     },
     {
+        image: "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/66a17fcf9bcf5c562d50a0bf/screenshot_2024-07-24-22-28-48-0000.webp&fit=cover&h=500&w=800",
+        name:"VisDown",
+        url:"https://visdown.netlify.app",
+        fromDeploy:"Deploys from GitHub with Next.js.",
+        date: "Published on Jul 24"
+    },
+    {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6584c9b747837e0008420337/screenshot_2023-12-21-23-27-07-0000.png",
         name:"isaac-urdaneta",
         url:"https://isaac-urdaneta.netlify.app",
