@@ -3,7 +3,7 @@ export const dataDeploys = [
     {
         image: `${imageSpotter.src}`,
         name:"Spotter Gym",
-        url:"https://spottergym.vercel.app",
+        url:"https://spotter-gym.netlify.app",
         fromDeploy:"Deploys from GitHub",
         date: "Published on march 2024"
     },
