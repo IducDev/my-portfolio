@@ -30,7 +30,7 @@ const About = () => {
           </p>
         
           <button type="button" className="mt-[1rem] py-5 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ background: 'linear-gradient(to right, #12152c, #123e73, #1fa7d4, #20dad9, #93e9e7)' }}>
-            <a className='text-[1.5rem]' target='_blank' rel='noreferrer'  href='https://drive.google.com/file/d/1cXU_3hn4yMm07PO0wuzSI8vjTCz1CwA_/view?usp=sharing' >
+            <a className='text-[1.5rem]' target='_blank' rel='noreferrer'  href='https://drive.google.com/file/d/15hNgbwzTnll35X0iOFFslgMJ80rRgxYx/view?usp=sharing' >
               Download CV
             </a>
           </button>
