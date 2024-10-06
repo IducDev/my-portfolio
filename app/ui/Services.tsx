@@ -46,7 +46,7 @@ const Services = () => {
                         <Image src={nocountrylogo} alt="no-country" className="w-[7rem] md:w-[10rem] mt-3"  />
                         </a>
                     </h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 mt-3">From January 2023 to January 2024</time>
+                    <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-gray-500 mt-3">From January 2023 to January 2024</time>
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                         Play the role of frontend developer with the following technologies: Typescript, Nextjs, TailwindCss, Redux, Zustand. I collaborated closely with the UI/UX team and the backend team, you could say I was a kind of bridge for both worlds.
                     </p>
@@ -72,7 +72,7 @@ const Services = () => {
                         </a>
                         <p>SpotterGym</p>
                     </h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 mt-3">From February 2024 - Present</time>
+                    <time className="block mb-2 text-sm font-normal leading-none text-white dark:text-gray-500 mt-3">From February 2024 - Present</time>
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                         Designing the screens, 
                         components and user experiences in the app,
