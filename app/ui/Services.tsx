@@ -67,8 +67,8 @@ const Services = () => {
                         <span className="mb-5">
                             Frontend Developer  - Mobile Developer
                         </span>
-                        <a href='https://www.nocountry.tech' rel='noreferrer' target="_blank" className='bg-white'>
-                            <Image src={LogoSpotter} alt="no-country" className="w-[7rem] md:w-[10rem] mt-3"  />
+                        <a href='https://spotter-gym.netlify.app' rel='noreferrer' target="_blank">
+                            <Image src={LogoSpotter} alt="SpotterGym" className="w-[7rem] md:w-[10rem] mt-3"  />
                         </a>
                         <p>SpotterGym</p>
                     </h3>
