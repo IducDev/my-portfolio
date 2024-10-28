@@ -16,6 +16,7 @@ import node from "../../public/node-js-svgrepo-com.svg";
 import Image from 'next/image';
 import kali from "../../public/kali-linux-logo-AED181186E-seeklogo.com.png";
 import Bash from "../../public/Bash-scripting.webp";
+import AI from "../../public/ai.png";
 
 
 
@@ -125,6 +126,9 @@ const Services = () => {
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
                     <Image className="h-auto max-w-full rounded-lg" src={Bash} alt="Image"/>
+                </div>
+                <div className="transition-transform duration-300 transform-gpu hover:scale-50">
+                    <Image className="h-auto max-w-full rounded-lg" src={AI} alt="Image"/>
                 </div>
                 
         </div>

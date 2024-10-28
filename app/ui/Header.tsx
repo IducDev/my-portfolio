@@ -14,6 +14,7 @@ import kali from "../../public/kali-linux-logo-AED181186E-seeklogo.com.png"
 import reactLogo from "../../public/React-icon.svg.png";
 import node from "../../public/node-js-svgrepo-com.svg";
 import Bash from "../../public/Bash-scripting.webp";
+import AI from "../../public/ai.png";
 //icon Component
 import IconFloat from './subComponents/IconFloat';
 import Image from 'next/image';
@@ -36,6 +37,7 @@ const Header = () => {
       <IconFloat image={reactLogo} top={50} left={20}  />
       <IconFloat image={node} top={70} left={69}  />
       <IconFloat image={Bash} top={90} left={69}  />
+      <IconFloat image={AI} top={40} left={80}  />
     </div>
   )
 }
