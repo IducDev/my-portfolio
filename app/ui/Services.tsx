@@ -12,11 +12,10 @@ import nextjs from "../../public/next.js.png";
 import linux from "../../public/linux-svgrepo-com.svg";
 import dart from "../../public/dart-icon.png";
 import flutter from "../../public/flutter-icon.png";
-import redux from "../../public/redux-logo.svg";
 import node from "../../public/node-js-svgrepo-com.svg";
-import zustand from "../../public/zustand.png";
-import figma from "../../public/figma.png"
 import Image from 'next/image';
+import kali from "../../public/kali-linux-logo-AED181186E-seeklogo.com.png";
+import Bash from "../../public/Bash-scripting.webp";
 
 
 
@@ -110,7 +109,7 @@ const Services = () => {
                     <Image className="h-auto max-w-full rounded-lg" src={nextjs} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <Image className="h-auto max-w-full rounded-lg" src={linux} alt="Image"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={node} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
                     <Image className="h-auto max-w-full rounded-lg" src={dart} alt="Image"/>
@@ -119,17 +118,15 @@ const Services = () => {
                     <Image className="h-auto max-w-full rounded-lg" src={flutter} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <Image className="h-auto max-w-full rounded-lg" src={redux} alt="Image"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={linux} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <Image className="w-[280px] h-[100px] rounded-lg" src={zustand} alt="Image"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={kali} alt="Image"/>
                 </div>
                 <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <Image className="h-auto max-w-full rounded-lg" src={node} alt="Image"/>
+                    <Image className="h-auto max-w-full rounded-lg" src={Bash} alt="Image"/>
                 </div>
-                <div className="transition-transform duration-300 transform-gpu hover:scale-50">
-                    <Image className="h-auto max-w-full rounded-lg" src={figma} alt="Image"/>
-                </div>
+                
         </div>
     </div>
     )
