@@ -2,6 +2,7 @@ import React from 'react'
 import avatar from "../../public/miperfil.jpg";
 import { TypeAnimation } from 'react-type-animation';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -37,9 +38,9 @@ const About = () => {
           </p>
         
           <button type="button" className="mt-[1rem] py-5 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ background: 'linear-gradient(to right, #12152c, #123e73, #1fa7d4, #20dad9, #93e9e7)' }}>
-            <a className='text-[1.5rem]' target='_blank' rel='noreferrer'  href='https://drive.google.com/file/d/1MlDE3Oid7nTjUW8WsffUULEbnFdg2Hma/view?usp=sharing' >
+            <Link className='text-[1.5rem]' target='_blank' rel='noreferrer'  href='https://drive.google.com/file/d/1MlDE3Oid7nTjUW8WsffUULEbnFdg2Hma/view?usp=sharing' >
               Download CV
-            </a>
+            </Link>
           </button>
           
         </div>

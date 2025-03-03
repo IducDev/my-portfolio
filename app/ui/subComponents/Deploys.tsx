@@ -10,12 +10,11 @@ const Deploys = () => {
         {
             dataDeploys.map((index, key)=>{
                 return (
-                    <div key={key}>
-                        <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div key={key} className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <div >
-                                <img className="rounded-t-lg w-full" src={index.image} alt="" />
+                                <img className="rounded-t-lg w-full h-[260px]" src={index.image} alt="" />
                             </div>
-                            <div className="p-5">
+                            <div className="p-5 h-100%">
                                 <a href="#">
                                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{index.name}</h5>
                                 </a>
@@ -31,7 +30,6 @@ const Deploys = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
                 )
             })
         }

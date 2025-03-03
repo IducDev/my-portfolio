@@ -17,6 +17,7 @@ import Image from 'next/image';
 //import kali from "../../public/kali-linux-logo-AED181186E-seeklogo.com.png";
 //import Bash from "../../public/Bash-scripting.webp";
 import AI from "../../public/ai.png";
+import Link from 'next/link';
 
 
 
@@ -42,9 +43,9 @@ const Services = () => {
                         <span className="mb-5">
                             Frontend Developer  - 
                         </span>
-                        <a href='https://www.nocountry.tech' rel='noreferrer' target="_blank">
-                        <Image src={nocountrylogo} alt="no-country" className="w-[7rem] md:w-[10rem] mt-3"  />
-                        </a>
+                        <Link href='https://www.nocountry.tech' rel='noreferrer' target="_blank">
+                            <Image src={nocountrylogo} alt="no-country" className="w-[7rem] md:w-[10rem] mt-3"  />
+                        </Link>
                     </h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-white  mt-3">From January 2023 to January 2024</time>
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -67,9 +68,9 @@ const Services = () => {
                         <span className="mb-5">
                             Frontend Developer  - Mobile Developer
                         </span>
-                        <a href='https://spotter-gym.netlify.app' rel='noreferrer' target="_blank">
+                        <Link href='https://spotter-gym.netlify.app' rel='noreferrer' target="_blank">
                             <Image src={LogoSpotter} alt="SpotterGym" className="w-[7rem] md:w-[10rem] mt-3"  />
-                        </a>
+                        </Link>
                         <p>SpotterGym</p>
                     </h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-white  mt-3">From February 2024 - Present</time>
