@@ -5,6 +5,7 @@ import services from "../../public/cloud-service.png";
 import projects from "../../public/project-management.png";
 import contact from "../../public/informacion-del-contacto.png";
 import Image from "next/image";
+import Link from 'next/link';
 
 
 const Navbar = () => {
@@ -12,41 +13,41 @@ const Navbar = () => {
     <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50 py-4 px-3'>
         <div className='container mx-auto'>
             <div className='w-full md:w-[500px] bg-skyPrimary h-[56px] backdrop-blur-2x1 rounded-full mx-auto px-8 flex justify-between items-center'>
-                <a className="cursor-pointer" href="#header">
+                <Link className="cursor-pointer" href="#header">
                     <Image
                         src={home}
                         alt='Home'
                         className='w-[1.8rem]'
                     />
-                </a>
-                <a className="cursor-pointer" href='#about'>
+                </Link>
+                <Link className="cursor-pointer" href='#about'>
                     <Image
                         src={profile}
                         alt='profile'
                         className='w-[1.8rem]'
                     />
-                </a>
-                <a className="cursor-pointer" href='#services'>
+                </Link>
+                <Link className="cursor-pointer" href='#services'>
                     <Image
                         src={services}
                         alt='services'
                         className='w-[1.8rem]'
                     />
-                </a>
-                <a className="cursor-pointer" href='#work'>
+                </Link>
+                <Link className="cursor-pointer" href='#work'>
                     <Image
                         src={projects}
                         alt='projects'
                         className='w-[1.8rem]'
                     />
-                </a>
-                <a className="cursor-pointer" href='#contact'>
+                </Link>
+                <Link className="cursor-pointer" href='#contact'>
                     <Image
                         src={contact}
                         alt='contact'
                         className='w-[1.8rem]'
                     />
-                </a>
+                </Link>
             </div>
         </div>
     </nav>
