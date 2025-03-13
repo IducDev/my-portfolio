@@ -14,6 +14,8 @@ import dart from "../../public/dart-icon.png";
 import flutter from "../../public/flutter-icon.png";
 import node from "../../public/node-js-svgrepo-com.svg";
 import Image from 'next/image';
+import supabase from "../../public/supabase.png";
+import postgreSql from "../../public/Postgresql_elephant.svg.png";
 //import kali from "../../public/kali-linux-logo-AED181186E-seeklogo.com.png";
 //import Bash from "../../public/Bash-scripting.webp";
 import AI from "../../public/ai.png";
@@ -57,6 +59,8 @@ const Services = () => {
         flutter,
         linux,
         AI,
+        supabase,
+        postgreSql,
     ];
 
     return (
