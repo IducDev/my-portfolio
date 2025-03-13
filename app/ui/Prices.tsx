@@ -65,10 +65,10 @@ const Prices = () => {
       <span className="font-medium text-gray-300">Development:</span>
       <ul className="ml-4 list-disc space-y-1">
         <li>
-          <span className="font-bold text-green-400">Outside Venezuela:</span> $2,000 - $4,000 USD
+          <span className="font-bold text-green-400">Outside Venezuela:</span> $2,000 - $3,000 USD
         </li>
         <li>
-          <span className="font-bold text-green-400">In Venezuela:</span> $1,000 - $3,000 USD
+          <span className="font-bold text-green-400">In Venezuela:</span> $600 - $2,000 USD
         </li>
       </ul>
     </div>
@@ -135,10 +135,10 @@ const Prices = () => {
                         <span className="font-medium text-gray-300">Development:</span>
                         <ul className="ml-4 list-disc space-y-1">
                             <li>
-                                <span className="font-bold text-green-400">Outside Venezuela:</span> $1,500 - $3.500 USD
+                                <span className="font-bold text-green-400">Outside Venezuela:</span> $600 - $1,500 USD
                             </li>
                             <li>
-                                <span className="font-bold text-green-400">In Venezuela:</span> $200 - $1,000 USD
+                                <span className="font-bold text-green-400">In Venezuela:</span> $200 - $600 USD
                             </li>
                         </ul>
                     </div>
@@ -151,7 +151,7 @@ const Prices = () => {
                                 <span className="font-bold text-green-400">Outside Venezuela:</span> $120−300 USD/moth
                             </li>
                             <li>
-                                <span className="font-bold text-green-400">In Venezuela:</span> $40−120 USD/moth
+                                <span className="font-bold text-green-400">In Venezuela:</span> $40−100 USD/moth
                             </li>
                         </ul>
                     </div>
@@ -204,10 +204,10 @@ const Prices = () => {
       <span className="font-medium text-gray-300">Development:</span>
       <ul className="ml-4 list-disc space-y-1">
         <li>
-          <span className="font-bold text-green-400">Outside Venezuela:</span> $3,000 - $8,000 USD
+          <span className="font-bold text-green-400">Outside Venezuela:</span> $2,000 - $3,000 USD
         </li>
         <li>
-          <span className="font-bold text-green-400">In Venezuela:</span> $1,000 - $3,000 USD
+          <span className="font-bold text-green-400">In Venezuela:</span> $600 - $2,000 USD
         </li>
       </ul>
     </div>
