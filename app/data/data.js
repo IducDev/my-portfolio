@@ -1,5 +1,6 @@
 import imageSpotter from "../../public/spotterImage.png";
-import camaraMunicipal from "../../public/camara-municipal.png";
+
+
 export const dataDeploys = [
     {
         image: `${imageSpotter.src}`,
@@ -9,7 +10,7 @@ export const dataDeploys = [
         date: "Published on march 2024"
     },
     {
-        image: `${camaraMunicipal.src}`,
+        image: `https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/67d0b0078e81b300080a43d6/screenshot_2025-03-11-21-52-29-0000.webp&fit=cover&h=500&q=40&w=800`,
         name:"Camara Municipal - Buchivacoa",
         url:"https://camara-buchivacoa.netlify.app",
         fromDeploy:"Deploys from GitHub",

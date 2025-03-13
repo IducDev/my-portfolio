@@ -6,6 +6,7 @@ import About from "./ui/About";
 import Services from "./ui/Services";
 import Work from "./ui/Work";
 import Contact from "./ui/Contact";
+import Prices from "./ui/Prices";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(true);
@@ -30,6 +31,7 @@ export default function Home() {
       <Header/>
       <About/>
       <Services/>
+      <Prices/>
       <Work/>
       <Contact/>
     </>
