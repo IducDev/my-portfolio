@@ -26,10 +26,16 @@ const About = () => {
             wrapper='span'
             repeat={Infinity}/>
           </div>
-          <p className='text-white mt-4 '>
-            With a solid foundation in modern web and mobile development, I bring hands-on experience in: TypeScript & Next.js: 
-            Building scalable, high-performance web applications with TypeScript and Next.js, leveraging server-side rendering and static site generation  for optimal user experiences. Dart & Flutter: Developing cross-platform mobile applications with Flutter, creating beautiful and responsive UIs that work seamlessly on Android. PostgreSQL & Supabase: Designing and managing robust databases with PostgreSQL, and utilizing Supabase for backend development, including authentication, real-time data, and serverless functions. 
-            I am passionate about creating efficient, user-friendly solutions that solve real-world problems. Let's build something amazing together!
+          <p className="text-white mt-4 text-justify">
+            With a solid foundation in modern web and mobile development, I bring hands-on experience in:
+            
+            <strong> TypeScript & Next.js:</strong> Building scalable, high-performance web applications with TypeScript and Next.js, leveraging server-side rendering and static site generation for optimal user experiences.
+            
+            <strong> Dart & Flutter:</strong> Developing cross-platform mobile applications with Flutter, creating beautiful and responsive UIs that work seamlessly on Android. 
+            
+            <strong> PostgreSQL & Supabase:</strong> Designing and managing robust databases with PostgreSQL, and utilizing Supabase for backend development, including authentication, real-time data, and serverless functions.
+            
+            I am passionate about creating efficient, user-friendly solutions that solve real-world problems. Let&apos;s build something amazing together!
           </p>
         
           <button type="button" className="mt-[1rem] py-5 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ background: 'linear-gradient(to right, #12152c, #123e73, #1fa7d4, #20dad9, #93e9e7)' }}>
