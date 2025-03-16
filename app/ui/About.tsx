@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <p className='text-white mt-4 '>
             With a solid foundation in modern web and mobile development, I bring hands-on experience in: TypeScript & Next.js: 
-            Building scalable, high-performance web applications with TypeScript and Next.js, leveraging server-side rendering (SSR) and static site generation (SSG) for optimal user experiences. Dart & Flutter: Developing cross-platform mobile applications with Flutter, creating beautiful and responsive UIs that work seamlessly on Android. PostgreSQL & Supabase: Designing and managing robust databases with PostgreSQL, and utilizing Supabase for backend development, including authentication, real-time data, and serverless functions. 
+            Building scalable, high-performance web applications with TypeScript and Next.js, leveraging server-side rendering and static site generation  for optimal user experiences. Dart & Flutter: Developing cross-platform mobile applications with Flutter, creating beautiful and responsive UIs that work seamlessly on Android. PostgreSQL & Supabase: Designing and managing robust databases with PostgreSQL, and utilizing Supabase for backend development, including authentication, real-time data, and serverless functions. 
             I am passionate about creating efficient, user-friendly solutions that solve real-world problems. Let's build something amazing together!
           </p>
         

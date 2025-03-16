@@ -40,7 +40,10 @@ const Prices = () => {
             <div className="text-base font-normal text-white">
               We create mobile applications for  Android, offering cross-platform solutions.
               Key features include:
-              <ul className='list-disc ml-5'>
+              
+              <details>
+                <summary>More details</summary>
+                <ul className='list-disc ml-5'>
                 <li>UI/UX design</li>
                 <li>Backend integration</li>
                 <li>Database integration</li>
@@ -48,8 +51,6 @@ const Prices = () => {
                 <li>Push notifications</li>
                 <li>Third-party API integration</li>
               </ul>
-              <details>
-                <summary>More details</summary>
                 <ul className='list-disc ml-5'>
                   <li>Local storage for offline operation.</li>
                   <li>Testing on real devices and emulators.</li>
@@ -111,7 +112,10 @@ const Prices = () => {
             <div className="text-base font-normal text-white">
               We offer robust website solutions with multiple pages and functionalities, ideal for a professional online presence.
               Key features:
-              <ul className='list-disc ml-5'>
+              
+              <details>
+                <summary>More details</summary>
+                <ul className='list-disc ml-5'>
                 <li>Responsive design</li>
                 <li>UI/UX design</li>
                 <li>CMS integration</li>
@@ -119,8 +123,6 @@ const Prices = () => {
                 <li>Payment gateway integration (optional)</li>
                 <li>SEO optimization</li>
               </ul>
-              <details>
-                <summary>More details</summary>
                 <ul className='list-disc ml-5'>
                   <li>Blog with categories, tags, and comments (optional).</li>
                   <li>Hosting and domain (optional, may be charged separately).</li>
@@ -181,7 +183,10 @@ const Prices = () => {
             <div className="text-base font-normal text-white">
               We develop personalized web and mobile applications tailored to your specific business needs.
               Key features:
-              <ul className='list-disc ml-5'>
+              
+              <details>
+                <summary>More details</summary>
+                <ul className='list-disc ml-5'>
                 <li>UI/UX design</li>
                 <li>Backend integration</li>
                 <li>Database integration</li>
@@ -189,8 +194,6 @@ const Prices = () => {
                 <li>Admin panel</li>
                 <li>Third-party API integration</li>
               </ul>
-              <details>
-                <summary>More details</summary>
                 <ul className='list-disc ml-5'>
                   <li>Functionality testing and delivery of technical documentation.</li>
                 </ul>
