@@ -39,7 +39,7 @@ export default function Home(): JSX.Element {
 
   return (
     <main className="min-h-screen">
-      { window.scrollY > 400 && window.scrollY != (document.body.scrollHeight - window.innerHeight) && <WhatsAppBottom/>}
+      { !scrollState.isVisible  &&  <WhatsAppBottom/>}
       <Header />
       <About />
       <Services />
