@@ -1,12 +1,12 @@
 "use client"
 import { useEffect, useState, useCallback } from "react";
-import Navbar from "./ui/Navbar";
 import Header from "./ui/Header";
 import About from "./ui/About";
 import Services from "./ui/Services";
 import Work from "./ui/Work";
 import Contact from "./ui/Contact";
 import Prices from "./ui/Prices";
+import WhatsAppBottom from "./ui/WhatsAppBottom";
 
 interface ScrollState {
   isVisible: boolean;
@@ -14,6 +14,7 @@ interface ScrollState {
 }
 
 export default function Home(): JSX.Element {
+
   const [scrollState, setScrollState] = useState<ScrollState>({
     isVisible: true,
     scrollPosition: 0
@@ -22,9 +23,11 @@ export default function Home(): JSX.Element {
   const handleScroll = useCallback(() => {
     const maxScroll = document.body.scrollHeight - window.innerHeight;
     const currentScroll = window.scrollY;
+
+    console.log(currentScroll, maxScroll);
     
     setScrollState(prev => ({
-      isVisible: currentScroll < maxScroll,
+      isVisible: currentScroll < 400,
       scrollPosition: currentScroll
     }));
   }, []);
@@ -36,7 +39,7 @@ export default function Home(): JSX.Element {
 
   return (
     <main className="min-h-screen">
-      {scrollState.isVisible && <Navbar />}
+      { window.scrollY > 400 && window.scrollY != (document.body.scrollHeight - window.innerHeight) && <WhatsAppBottom/>}
       <Header />
       <About />
       <Services />
