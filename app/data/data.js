@@ -3,13 +3,6 @@ import imageSpotter from "../../public/spotterImage.png";
 
 export const dataDeploys = [
     {
-        image: `${imageSpotter.src}`,
-        name:"Spotter Gym",
-        url:"https://spotter-gym.netlify.app",
-        fromDeploy:"Deploys from GitHub",
-        date: "Published on march 2024"
-    },
-    {
         image: `https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/67d0b0078e81b300080a43d6/screenshot_2025-03-11-21-52-29-0000.webp&fit=cover&h=500&q=40&w=800`,
         name:"Camara Municipal - Buchivacoa",
         url:"https://camara-buchivacoa.netlify.app",
@@ -22,6 +15,20 @@ export const dataDeploys = [
         url:"https://visdown.netlify.app",
         fromDeploy:"Deploys from GitHub with Next.js.",
         date: "Published on Jul 24"
+    },
+    {
+        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/62ab4449ddfc0e000847b864/screenshot_2022-06-16-14-55-17-0000.png",
+        name:"paperock",
+        url:"https://paperock.netlify.app",
+        fromDeploy:"Deploys from GitHub.",
+        date: "Published on Jun 16, 2022."
+    },
+    {
+        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/62647315cbf6840e25aff865/screenshot_2022-04-23-21-43-59-0000.png",
+        name:"todoappiduc",
+        url:"https://todoappiduc.netlify.app",
+        fromDeploy:"Deploys from GitHub.",
+        date: "Published on Apr 23, 2022."
     },
     {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/6483e6aba16db513abb04e56/screenshot_2023-06-10-02-58-00-0000.png",
@@ -43,13 +50,6 @@ export const dataDeploys = [
         url:"https://easybank-iducsoft.netlify.app",
         fromDeploy:"Deploys from GitHub.",
         date: "Published on Sep 3, 2022."
-    },
-    {
-        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/62ab4449ddfc0e000847b864/screenshot_2022-06-16-14-55-17-0000.png",
-        name:"paperock",
-        url:"https://paperock.netlify.app",
-        fromDeploy:"Deploys from GitHub.",
-        date: "Published on Jun 16, 2022."
     },
     {
         image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/620f1c2c23fbabc1f0a83d1e/screenshot_2022-02-18-04-10-26-0000.png",
@@ -99,13 +99,6 @@ export const dataDeploys = [
         url:"https://shortendlink-iducsoft.netlify.app",
         fromDeploy:"Deploys from GitHub.",
         date: "Published on May 11, 2022."
-    },
-    {
-        image: "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/62647315cbf6840e25aff865/screenshot_2022-04-23-21-43-59-0000.png",
-        name:"todoappiduc",
-        url:"https://todoappiduc.netlify.app",
-        fromDeploy:"Deploys from GitHub.",
-        date: "Published on Apr 23, 2022."
     },
 
 ];

@@ -30,18 +30,9 @@ const Services = () => {
             company: 'No Country',
             link: 'https://www.nocountry.tech',
             logo: nocountrylogo,
-            dates: 'January 2023 - January 2024',
+            dates: 'January 2023 - January 2025',
             description:
                 'Played the role of frontend developer with Typescript, Nextjs, TailwindCss, Redux, Zustand. Collaborated closely with UI/UX and backend teams.',
-        },
-        {
-            title: 'Frontend Developer - Mobile Developer',
-            company: 'SpotterGym',
-            link: 'https://spotter-gym.netlify.app',
-            logo: LogoSpotter,
-            dates: 'February 2024 - Present',
-            description:
-                'Designing screens, components, and user experiences in the app. Layout views and components for all screen widths. Integrated with the backend team to consume endpoints.',
         },
     ];
 

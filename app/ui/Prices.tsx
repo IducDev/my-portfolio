@@ -59,17 +59,14 @@ const Prices = () => {
               </details>
             </div>
             <div className="text-base font-normal text-white">
-  <span className="text-lg font-semibold text-blue-400">Average Prices:</span>
+  
   <div className="mt-2 space-y-2">
     {/* Basic Section */}
     <div>
       <span className="font-medium text-gray-300">Development:</span>
       <ul className="ml-4 list-disc space-y-1">
         <li>
-          <span className="font-bold text-green-400">Outside Venezuela:</span> $2,000 - $3,000 USD
-        </li>
-        <li>
-          <span className="font-bold text-green-400">In Venezuela:</span> $600 - $2,000 USD
+          <span className="font-bold text-green-400">Average price:</span> $600 - $2,000 USD
         </li>
       </ul>
     </div>
@@ -79,10 +76,7 @@ const Prices = () => {
       <span className="font-medium text-gray-300">Maintenance:</span>
       <ul className="ml-4 list-disc space-y-1">
         <li>
-          <span className="font-bold text-green-400">Outside Venezuela:</span> $300−400 USD/moth
-        </li>
-        <li>
-          <span className="font-bold text-green-400">In Venezuela:</span> $100−250 USD/moth
+          <span className="font-bold text-green-400">Average Price:</span> $100−300 USD/moth
         </li>
       </ul>
     </div>
@@ -130,17 +124,13 @@ const Prices = () => {
               </details>
             </div>
             <div className="text-base font-normal text-white">
-                <span className="text-lg font-semibold text-blue-400">Average Prices:</span>
                 <div className="mt-2 space-y-2">
                     {/* Basic Section */}
                     <div>
                         <span className="font-medium text-gray-300">Development:</span>
                         <ul className="ml-4 list-disc space-y-1">
                             <li>
-                                <span className="font-bold text-green-400">Outside Venezuela:</span> $600 - $1,500 USD
-                            </li>
-                            <li>
-                                <span className="font-bold text-green-400">In Venezuela:</span> $200 - $600 USD
+                                <span className="font-bold text-green-400">Average Price:</span> $200 - $1,000 USD
                             </li>
                         </ul>
                     </div>
@@ -150,10 +140,7 @@ const Prices = () => {
                         <span className="font-medium text-gray-300">Maintenance:</span>
                         <ul className="ml-4 list-disc space-y-1">
                             <li>
-                                <span className="font-bold text-green-400">Outside Venezuela:</span> $120−300 USD/moth
-                            </li>
-                            <li>
-                                <span className="font-bold text-green-400">In Venezuela:</span> $40−100 USD/moth
+                                <span className="font-bold text-green-400">In Venezuela:</span> $40−250 USD/moth
                             </li>
                         </ul>
                     </div>
@@ -200,17 +187,13 @@ const Prices = () => {
               </details>
             </div>
             <div className="text-base font-normal text-white">
-  <span className="text-lg font-semibold text-blue-400">Average Prices:</span>
   <div className="mt-2 space-y-2">
     {/* Basic Section */}
     <div>
       <span className="font-medium text-gray-300">Development:</span>
       <ul className="ml-4 list-disc space-y-1">
         <li>
-          <span className="font-bold text-green-400">Outside Venezuela:</span> $2,000 - $3,000 USD
-        </li>
-        <li>
-          <span className="font-bold text-green-400">In Venezuela:</span> $600 - $2,000 USD
+          <span className="font-bold text-green-400">Average Price:</span> $600 - $2,000 USD
         </li>
       </ul>
     </div>
@@ -220,10 +203,7 @@ const Prices = () => {
       <span className="font-medium text-gray-300">maintenance:</span>
       <ul className="ml-4 list-disc space-y-1">
         <li>
-          <span className="font-bold text-green-400">Outside Venezuela:</span> $300−400 USD/month
-        </li>
-        <li>
-          <span className="font-bold text-green-400">In Venezuela:</span> $100−250 USD/month
+          <span className="font-bold text-green-400">Average Price:</span> $100−300 USD/month
         </li>
       </ul>
     </div>
